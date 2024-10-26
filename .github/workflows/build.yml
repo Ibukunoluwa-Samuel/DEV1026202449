@@ -1,5 +1,7 @@
+name: Node Continous Integration
 on: push
 jobs:
+  build-node:
   first-job:
     runs-on: ubuntu-latest
     container: node:23.1.0
